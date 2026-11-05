@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 20px;
+    color: white;
+    border-radius: 8px;
+    z-index: 1000;
+}
+
+.toast-success {
+    background-color: #16a34a;
+}
+
+.toast-error {
+    background-color: #dc2626;
+}

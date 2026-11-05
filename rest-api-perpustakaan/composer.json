@@ -1,0 +1,9 @@
+{
+    "name": "perpustakaan/rest-api",
+    "description": "REST API Perpustakaan",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}

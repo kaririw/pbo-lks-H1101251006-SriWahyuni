@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perpustakaan</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body class="bg-gray-100">
+
+    <!-- Header -->
+    <header class="bg-blue-600 text-white p-4">
+        <h1 class="text-2xl font-bold">Perpustakaan</h1>
+    </header>
+
+    <!-- Menu Navigasi -->
+    <nav class="bg-white shadow p-4 flex gap-6">
+        <a href="#dashboard" id="menu-dashboard" class="text-blue-600">
+            Dashboard
+        </a>
+
+        <a href="#books" id="menu-books" class="text-blue-600">
+            Buku
+        </a>
+
+        <a href="#" class="text-blue-600">
+            Kategori
+        </a>
+    </nav>
+
+    <!-- Konten Halaman -->
+    <main class="p-6">
+        <div id="app">
+            Memuat aplikasi...
+        </div>
+    </main>
+
+    <!-- File JavaScript -->
+    <script src="js/config.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/pages/dashboard.js"></script>
+    <script src="js/pages/books.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+</html>
