@@ -1,0 +1,7 @@
+# Backend
+/rest-api-perpustakaan/vendor/
+/rest-api-perpustakaan/.env
+
+# File bawaan Windows
+desktop.ini
+Thumbs.db
